@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #1f2937;
+  }
+
+.header {
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    font-size: 18px;
+    color: #e5e6eb;
+    list-style-type: none;
+    display: flex;
+    gap: 4px;
+}
+
+.first  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+    width: 500px;
+}
+
+/* Can't figure out how to get the damn button not to shrink 
+
+.button {
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    min-width: 25%;
+} */
+
+button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 50px;
+    padding: 10px 20px;
+    width: 25%;
+    flex-shrink: 0;
+}
+
+.first-image {
+    width: 450px;
+    /* height: auto; */
+}
