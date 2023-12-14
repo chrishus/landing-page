@@ -1,8 +1,8 @@
 * {
     margin: 0;
-    padding: 10px;
+    padding: 0px;
     box-sizing: border-box;
-    background-color: #1f2937;
+    /* background-color: #1f2937; */
   }
 
 .header {
@@ -11,6 +11,9 @@
     color: #f9faf8;
     justify-content: space-between;
     align-items: center;
+    background-color: #1f2937;
+    padding: 0 80px;
+
 }
 
 ul {
@@ -18,13 +21,15 @@ ul {
     color: #e5e6eb;
     list-style-type: none;
     display: flex;
-    gap: 4px;
+    gap: 8px;
 }
 
 .first  {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #1f2937;
+    padding: 50px 80px;
 }
 
 .first-title {
@@ -38,6 +43,7 @@ ul {
     flex-direction: column;
     color: #f9faf8;
     width: 500px;
+    margin-right: 55px;
 }
 
 /* Can't figure out how to get the damn button not to shrink 
@@ -60,5 +66,8 @@ button {
 
 .first-image {
     width: 450px;
-    /* height: auto; */
+}
+
+.container {
+    background-color: white;
 }
