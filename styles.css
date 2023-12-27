@@ -55,6 +55,9 @@ ul {
     min-width: 25%;
 } */
 
+.text {
+    padding-bottom: 5px;
+}
 button {
     color: #f9faf8;
     background-color: #3882f6;
@@ -68,8 +71,11 @@ button {
     width: 450px;
 }
 
-
 /* some random information section */
+
+.second {
+    padding: 15px 15px;
+}
 
 .container {
     background-color: white;
@@ -103,6 +109,27 @@ button {
     width: 150px;
 }
 
-.card p {
+/* inspirational quote section */
+
+.third {
+    background-color: #e5e7eb;
+    padding: 100px 100px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #6b6b6b;
+    display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 150px;
+    padding-top: 10px;
 }
