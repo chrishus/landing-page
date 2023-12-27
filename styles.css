@@ -164,3 +164,15 @@ button {
     width: auto;
     padding: 7px 15px;
 }
+
+/* footer */
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    font-size: small;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
